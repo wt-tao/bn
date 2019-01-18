@@ -1,0 +1,18 @@
+/**index.wxss**/
+.swiper{width: 100%;position: fixed;top: 0;z-index: 1003}
+.bg{position: fixed;z-index: 1001;top: 0}
+.heading{width: 20%;height:12%;border-radius: 50%;margin-top:30%;margin-left:40%;}
+.head_img{width: 100%;border-top-left-radius: 50%;border-top-right-radius: 50%;border-bottom-left-radius: 50%;border-bottom-right-radius: 50%;}
+.first_text{width: 80%;margin-left: 10%;line-height: 60rpx;font-size: 40rpx;color: #FFFF00;text-align: center;flex-wrap: wrap;}
+.name{width: 100%;line-height: 100rpx;font-size: 50rpx;text-align: center;margin-top:30rpx;}
+.button{font-size: 34rpx;background-color: #FFFF00;color: #E2362D;width: 60%;margin-left: 20%;margin-top: 100rpx;}
+.right_name{width: 80%;margin-left: 10%;text-align: right;line-height: 100rpx;font-size: 50rpx;margin-top: 50rpx;}
+.er_tp{width: 300rpx;height: 300rpx;margin: auto;}
+.er_db_tp{width: 100%;height: 100rpx;margin-top: 80rpx;}
+.san_tz_tp{width: 90%;margin-left: 5%;height: 300rpx;margin-top: 60rpx;}
+.si_dong_tp{width: 80%;margin-left: 10%;margin-top: 35%;height: 350rpx;}
+.si_di_tp{width: 100%;height:200rpx;position: absolute;bottom: 0;}
+.qi_tp{width: 80%;margin-left: 10%;margin-top: 25%;height: 400rpx;}
+.headings{margin-top: 50rpx;margin-left:20%;width: 20%;height:12%;border-radius: 50%;}
+.flex{width: 100%;display: flex;flex-direction: row}
+.right_names{text-align: right;line-height: 150rpx;font-size: 50rpx;width:50%;margin-top: 50rpx;}

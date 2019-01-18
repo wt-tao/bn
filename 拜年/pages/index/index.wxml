@@ -1,0 +1,136 @@
+<!--index.wxml-->
+ <image src='../../img/bg.jpg' style='width:100%;height:{{height}}' class='bg'/>
+ <image src='../../img/xh.gif' style='width:100%;height:{{height}};z-index:1002;position: fixed;top: 0' class='bg'/>
+<swiper class='swiper' style='height:{{height}}' circular vertical>
+    <swiper-item>
+        <image src='../../img/tx1.png' style='width:40%;margin-top:26%;margin-left:30%;' mode='widthFix'/>
+        <view class='heading' style='margin-top:-22%;'>
+            <image src='{{haed_img}}' class='head_img' mode='widthFix' animation="{{animationData}}"/>
+        </view>
+        <view class='first_text' style='margin-top:80rpx;'>{{list.index_character_1_1}}</view>
+        <view class='name'>{{name}}</view>
+        <view class='first_text' style='font-size:50rpx;margin-top:80rpx;'>{{list.index_character_1_2}}</view>
+
+        <button class='button' open-type="getUserInfo" bindgetuserinfo="getUserInfo">制作新年祝福</button>
+    </swiper-item>
+<!-- 2 -->
+    <swiper-item>
+      <view class='first_text' style='margin-top:30%'>{{list.index_character_2_1}}</view>
+      <view class='first_text'  style='margin-top:40rpx'>{{list.index_character_2_2}}</view>
+      <view class='first_text' style='font-size:50rpx;margin-top:40rpx'>{{list.index_character_2_3}}</view>
+      <view class='right_name'>— {{name}}</view>
+      <view class='er_tp'>
+          <image src='../../img/1.png' style='width:100%;' mode='widthFix'/>
+      </view>
+      <view class='er_db_tp'>
+          <image src='{{url}}{{list.index_picture_2}}' style='width:100%;height:100%' mode='aspectFill'/>
+      </view>
+    </swiper-item>
+<!-- 3 -->
+    <swiper-item>
+        <view class='heading'>
+            <image src='{{haed_img}}' class='head_img' mode='widthFix' animation="{{animationData}}"/>
+        </view>
+      <view class='first_text'  style='margin-top:40rpx'>{{list.index_character_3_1}}</view>
+      <view class='first_text' style='font-size:50rpx;margin-top:40rpx'>{{list.index_character_3_2}}</view>
+      <view class='right_name'>— {{name}}</view>
+      <view class='san_tz_tp'>
+          <image src='{{url}}{{list.index_picture_3}}' style='width:100%;height:100%' mode='aspectFill'/>
+      </view>
+    </swiper-item>
+<!-- 4 -->
+    <swiper-item>
+        <view class='si_dong_tp'>
+            <image src='{{url}}{{list.index_picture_4}}' style='width:100%;height:100%' mode='aspectFill'/>
+        </view>
+        <view class='si_di_tp'>
+            <image src='{{url}}{{list.index_picture_4_d}}' style='width:100%;height:100%' mode='aspectFill'/>
+        </view>
+    </swiper-item>
+  <!-- 5 -->
+    <swiper-item>
+        <view class='first_text' style='margin-top:30%'>{{list.index_character_5_1}}</view>
+        <view class='first_text' style='font-size:50rpx;margin-top:40rpx'>{{list.index_character_5_2}}</view>
+          <view class='first_text'  style='margin-top:40rpx'>{{list.index_character_5_3}}</view>
+          <view class='first_text'  style='margin-top:40rpx'>{{list.index_character_5_4}}</view>
+          <view class='first_text'  style='margin-top:40rpx'>{{list.index_character_5_5}}</view>
+          <view class='right_name'>— {{name}}</view>
+          <button class='button' style='width:50%;margin-left:25%;margin-top:70rpx;'>小程序调转</button>
+          <view class='er_db_tp' style='position: absolute;bottom: 0;'>
+              <image src='{{url}}{{list.index_picture_5}}' style='width:100%;height:100%' mode='aspectFill'/>
+          </view>
+    </swiper-item>
+    <!-- 6 -->
+    <swiper-item>
+         <view class='first_text' style='margin-top:30%'>{{list.index_character_6_1}}</view>
+      <view class='first_text'  style='margin-top:40rpx'>{{list.index_character_6_2}}</view>
+      <view class='first_text'  style='margin-top:40rpx'>{{list.index_character_6_3}}</view>
+      <view class='first_text' style='font-size:50rpx;margin-top:40rpx'>{{list.index_character_6_4}}</view>
+      <view class='right_name'>— {{name}}</view>
+      <view class='si_dong_tp' style='height:250rpx;margin-top:50rpx;'>
+          <image src='{{url}}{{list.index_picture_6}}' style='width:100%;height:100%' mode='aspectFill'/>
+      </view>
+      <view class='er_db_tp' style='position: absolute;bottom: 0;'>
+          <image src='{{url}}{{list.index_picture_6_d}}' style='width:100%;height:100%' mode='aspectFill'/>
+      </view>
+    </swiper-item>
+
+    <!-- 7 -->
+    <swiper-item>
+        <view class='qi_tp'>
+            <image src='{{url}}{{list.index_picture_7}}' style='width:100%;height:100%' mode='aspectFill'/>
+        </view>
+        <view class='first_text'  style='margin-top:40rpx'>{{list.index_character_7_1}}</view>
+        <view class='first_text'  style='margin-top:40rpx'>{{list.index_character_7_2}}</view>
+        <view class='first_text'  style='margin-top:40rpx;font-size:44rpx'>{{list.index_character_7_3}}</view>
+        <view class='right_name'>— {{name}}</view>
+        <view class='er_db_tp' style='position: absolute;bottom: 0;'>
+            <image src='{{url}}{{list.index_picture_7_d}}' style='width:100%;height:100%' mode='aspectFill'/>
+        </view>
+    </swiper-item>
+    <!-- 8 -->
+    <swiper-item>
+      <view class='first_text' style='margin-top:30%'>{{list.index_character_8_1}}</view>
+      <view class='first_text'  style='margin-top:40rpx'>{{list.index_character_8_2}}</view>
+      <view class='first_text'  style='margin-top:40rpx'>{{list.index_character_8_3}}</view>
+      <view class='first_text' style='font-size:50rpx;margin-top:40rpx'>{{list.index_character_8_4}}</view>
+      <view class='flex'>
+          <view class='headings'>
+                <image src='{{haed_img}}' class='head_img' mode='widthFix' animation="{{animationData}}"/>
+            </view>
+            <view class='right_names'>— {{name}}</view>
+        </view>
+        <view class='san_tz_tp' style='margin-top:20rpx;height:250rpx;'>
+            <image src='{{url}}{{list.index_picture_8}}' style='width:100%;height:100%' mode='aspectFill'/>
+        </view>
+        <view class='er_db_tp' style='position: absolute;bottom: 0;'>
+            <image src='{{url}}{{list.index_picture_8_d}}' style='width:100%;height:100%' mode='aspectFill'/>
+        </view>
+    </swiper-item >
+    <!-- 9 -->
+    <swiper-item>
+        <image src='../../img/tc_5.png' style='width:60%;margin-left:20%;margin-top:30%' mode='widthFix'/>
+        <view class='heading' style='margin-top:-10%;'>
+            <image src='{{haed_img}}' class='head_img' mode='widthFix' animation="{{animationData}}"/>
+        </view>
+        <view class='first_text'  style='margin-top:40rpx'>{{list.index_character_9_1}}</view>
+        <view class='first_text' style='font-size:50rpx;margin-top:40rpx'>{{list.index_character_9_2}}</view>
+        <view class='right_name'>— {{name}}</view>
+        <view class='er_db_tp' style='position: absolute;bottom: 0;'>
+            <image src='{{url}}{{list.index_picture_9_d}}' style='width:100%;height:100%' mode='aspectFill'/>
+        </view>
+    </swiper-item >
+
+    <!-- 10 -->
+    <swiper-item>
+      <view class='heading'>
+            <image src='{{haed_img}}' class='head_img' mode='widthFix' animation="{{animationData}}"/>
+        </view>
+        <view class='first_text' style='margin-top:40rpx;'>{{list.index_character_10_1}}</view>
+        <view class='first_text' style='margin-top:20rpx;'>{{list.index_character_10_2}}</view>
+        <view class='er_tp' style='margin-top:-20rpx;'>
+          <image src='../../img/tc7@1x.png' style='width:100%;' mode='widthFix'/>
+      </view>
+        <button class='button' open-type='share'>发给朋友拜年</button>
+    </swiper-item>
+</swiper>
